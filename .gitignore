@@ -9,8 +9,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-src/WebAPI/out
-tests/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
