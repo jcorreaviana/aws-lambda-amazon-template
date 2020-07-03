@@ -1,13 +1,13 @@
- version: 2
+ version: 2.1
+ general:
+  build_dir: src/
 
  orbs:
   win: circleci/windows@2.2.0
 
  jobs:
    build:
-     executor: win/default     
-
-     working_directory: src
+     executor: win/default    
 
      steps:
        - checkout
